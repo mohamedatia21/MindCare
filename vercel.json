@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "buildCommand": "npm install && npm --prefix src/client install && npm --prefix src/client run build",
+  "outputDirectory": "src/client/dist",
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+-- MIGRATIONS TABLE
+CREATE TABLE IF NOT EXISTS migrations (
+    version INTEGER PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    applied_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- USERS
+CREATE TABLE IF NOT EXISTS users (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    role VARCHAR(50) NOT NULL,
+    status VARCHAR(50) NOT NULL DEFAULT 'ACTIVE',
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- SESSIONS
+CREATE TABLE IF NOT EXISTS sessions (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    started_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    ended_at TIMESTAMP WITH TIME ZONE NULL,
+    status VARCHAR(50) NOT NULL DEFAULT 'ACTIVE',
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_sessions_user_id ON sessions(user_id);
+
+-- MEMORIES
+CREATE TABLE IF NOT EXISTS memories (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    session_id UUID NULL REFERENCES sessions(id) ON DELETE SET NULL,
+    memory_class VARCHAR(50) NOT NULL,
+    content TEXT NOT NULL,
+    epistemic_status VARCHAR(50) NOT NULL,
+    status VARCHAR(50) NOT NULL,
+    retention_policy VARCHAR(50) NOT NULL,
+    consent_state VARCHAR(50) NOT NULL,
+    source VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    expires_at TIMESTAMP WITH TIME ZONE NULL,
+    deleted_at TIMESTAMP WITH TIME ZONE NULL
+);
+
+CREATE INDEX idx_memories_user_id ON memories(user_id);
+CREATE INDEX idx_memories_session_id ON memories(session_id);
+CREATE INDEX idx_memories_status ON memories(status);
+
+-- CONSENTS
+CREATE TABLE IF NOT EXISTS consents (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    consent_type VARCHAR(100) NOT NULL,
+    state VARCHAR(50) NOT NULL,
+    granted_at TIMESTAMP WITH TIME ZONE NULL,
+    revoked_at TIMESTAMP WITH TIME ZONE NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE(user_id, consent_type)
+);
+
+CREATE INDEX idx_consents_user_id ON consents(user_id);

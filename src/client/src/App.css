@@ -1,0 +1,16 @@
+/* App-level layout utilities and view transitions */
+
+.mc-view-enter {
+  animation: viewEnter var(--dur-slower) var(--ease-out) both;
+}
+
+@keyframes viewEnter {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.mc-stagger-1 { animation-delay: 0.05s; }
+.mc-stagger-2 { animation-delay: 0.1s; }
+.mc-stagger-3 { animation-delay: 0.15s; }
+.mc-stagger-4 { animation-delay: 0.2s; }
+.mc-stagger-5 { animation-delay: 0.25s; }

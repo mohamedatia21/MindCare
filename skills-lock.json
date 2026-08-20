@@ -1,0 +1,545 @@
+{
+  "version": 1,
+  "skills": {
+    "api-and-interface-design": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/development/api-and-interface-design/SKILL.md",
+      "computedHash": "26f5a9e7abfd332d7a2e5887cf19bddd3393f47514c379b36bf227c1f15cdec4"
+    },
+    "brainstorming": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/misc/brainstorming/SKILL.md",
+      "computedHash": "0eb8e9ba100985eb4da20c46807268cafd72ec1c4ea58132edf9be6c469867fe"
+    },
+    "browser-testing-with-devtools": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/testing/browser-testing-with-devtools/SKILL.md",
+      "computedHash": "639950ea71851d9c4919608cba8b6276cd1ba30cd82acdc4949c701537eed661"
+    },
+    "ci-cd-and-automation": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/deployment/ci-cd-and-automation/SKILL.md",
+      "computedHash": "578b098a7d2352ccdac8b8abdc40eb6803538e81cf8382f138da6188a655087c"
+    },
+    "code-review": {
+      "source": "jwilger/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/code-review/code-review/SKILL.md",
+      "computedHash": "427be6001816cfacede5eaa485f30c92383f3c79c1d009536a2a52e78c890801"
+    },
+    "code-review-and-quality": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/code-review/code-review-and-quality/SKILL.md",
+      "computedHash": "6231479cc74c7ed70a5618b81b3f94034d9806c0319a1a23d15f9b94a368c581"
+    },
+    "code-simplification": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/misc/code-simplification/SKILL.md",
+      "computedHash": "7973e746e8e2ea5004d520da970c15a106824b8d6be1bcff48908aec021f3677"
+    },
+    "context-engineering": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/context/context-engineering/SKILL.md",
+      "computedHash": "bb8864454c5a24636cab86c4b3c4b29e7e7431c80485bfd7c9c0a19a01936510"
+    },
+    "crisis-detection-intervention-ai": {
+      "source": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "sourceType": "github",
+      "skillPath": "skills/03-crisis-and-safety/detection/crisis-detection-intervention-ai/SKILL.md",
+      "computedHash": "288be9c27f64dfe374273858d212fb4258aec5a17e6b657772ec5c2dc385b074"
+    },
+    "crisis-response-protocol": {
+      "source": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "sourceType": "github",
+      "skillPath": "skills/03-crisis-and-safety/response/crisis-response-protocol/SKILL.md",
+      "computedHash": "e9a5e51c5d61afa7900482201029f144d99181b9f5afef84e3692562f7247410"
+    },
+    "debugging-and-error-recovery": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/debugging/debugging-and-error-recovery/SKILL.md",
+      "computedHash": "1a119d27e8f1d27ed6317adf3115826336491346780dcb7d7a7a7f79fe3ffe10"
+    },
+    "deprecation-and-migration": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/misc/deprecation-and-migration/SKILL.md",
+      "computedHash": "55a559781ae92cacd6b75acd509e61b577c2660212d1808da2fbb8dbadc90196"
+    },
+    "design-taste-frontend": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/design/design-taste-frontend/SKILL.md",
+      "computedHash": "a089cafef3036b64da8b71e38f3303edd2c991c5dac137b13ca177384d9a7ac1"
+    },
+    "dispatching-parallel-agents": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/multi-agent/dispatching-parallel-agents/SKILL.md",
+      "computedHash": "b011107f17188e0b2898bb1856b5bac8b49537cc86e737c82126558a235bd62a"
+    },
+    "documentation-and-adrs": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/documentation/documentation-and-adrs/SKILL.md",
+      "computedHash": "7464fd2950b99fb00bbf65cab27653e0a049eef00c98927713ffdfe232a9daa9"
+    },
+    "domain-modeling": {
+      "source": "jwilger/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/development/domain-modeling/SKILL.md",
+      "computedHash": "efa43d4f22c045f74f5287dedc7f4e47aa75bc19a91d70eafe18b4b63e9ca7b7"
+    },
+    "doubt-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/development/doubt-driven-development/SKILL.md",
+      "computedHash": "880332887b731e34509974dd6b62c8ae3943367f3b8ca0dd1bbb4479f474f73e"
+    },
+    "ensemble-team": {
+      "source": "jwilger/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/multi-agent/ensemble-team/SKILL.md",
+      "computedHash": "8cfd8bee97f26cdb06aa7481f61b8993546d3a4b08d2234e426dd78ef14a5eaf"
+    },
+    "executing-plans": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/planning/executing-plans/SKILL.md",
+      "computedHash": "78a07800ee99a5861ae10be59d79fad085fdca10444e8aaeb2691597e357cff8"
+    },
+    "external-content-sanitizer": {
+      "source": "bm629/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/03-crisis-and-safety/compliance/external-content-sanitizer/SKILL.md",
+      "computedHash": "fe48fbba00052eefc2acaa7285d222810fee52bea9902b78804dc21032a78e06"
+    },
+    "finishing-a-development-branch": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/git/finishing-a-development-branch/SKILL.md",
+      "computedHash": "4f571e7befb8b0946d9d7770232c818812412e9ab1dfb811f847edfba1fc6275"
+    },
+    "fixing-accessibility": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/accessibility/fixing-accessibility/SKILL.md",
+      "computedHash": "dc5aa22eb91ec954bf4085a3adf1968eacbe5f54743ab8861ce9c4f56f315db4"
+    },
+    "fixing-motion-performance": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/performance/fixing-motion-performance/SKILL.md",
+      "computedHash": "868f7e204f4bb3073f67da8c5b2396cd38a9b389dc92b62c698a8d61a605bac9"
+    },
+    "frontend-design": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/design/frontend-design/SKILL.md",
+      "computedHash": "7d16aa5a3703f4aefc3fd6b213421879a7cd61c4ba387f1bf787f1ea172182e8"
+    },
+    "frontend-ui-engineering": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/frontend/frontend-ui-engineering/SKILL.md",
+      "computedHash": "cb4e981ecb5f701b451fc4e937a38049b49fd4523f213e06cffbd00b007060dc"
+    },
+    "git-workflow-and-versioning": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/git/git-workflow-and-versioning/SKILL.md",
+      "computedHash": "8b53153892a21c3a486831bf608970b040ad0e9da698505af58c659242cf835c"
+    },
+    "gpt-taste": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/frontend/gpt-taste/SKILL.md",
+      "computedHash": "d38ded67fd2f5a2f7a9baf910e984ca5897e04aca04067c3c1eee9de0b86f20c"
+    },
+    "hipaa-compliance": {
+      "source": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "sourceType": "github",
+      "skillPath": "skills/03-crisis-and-safety/compliance/hipaa-compliance/SKILL.md",
+      "computedHash": "67d9b4ef3904b078b961e36d70e75d40e2b9d0d1842db0dec53d4ee0f9181ce6"
+    },
+    "idea-refine": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/misc/idea-refine/SKILL.md",
+      "computedHash": "9fc0ae5d8a074872a636d22f9c6fe71e041b86cddc9fe5af90ef654f5032ec5d"
+    },
+    "incremental-implementation": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/development/incremental-implementation/SKILL.md",
+      "computedHash": "bd40e91eac68b83ba0204dd57b4bd35511cb900f937a7127b79f2396b2bb305d"
+    },
+    "interview-me": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/misc/interview-me/SKILL.md",
+      "computedHash": "efded91ac7f7626239b338ce8622afeb557151b86532b632f3c9eb5b2ff9048f"
+    },
+    "mental-health-analyzer": {
+      "source": "FreedomIntelligence/OpenClaw-Medical-Skills",
+      "sourceType": "github",
+      "skillPath": "skills/02-tracking-and-personalization/analysis/mental-health-analyzer/SKILL.md",
+      "computedHash": "9dca887be7c0d90d15a9b7cf8e0dedb501411574a2654ff4d2c76e3d952e3d09"
+    },
+    "observability-and-instrumentation": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/observability/observability-and-instrumentation/SKILL.md",
+      "computedHash": "6a22881e154faa94c7312ff1a083309a4ac75dd2b8c05eceef9fc3d7ba3827e5"
+    },
+    "performance-optimization": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/misc/performance-optimization/SKILL.md",
+      "computedHash": "cd729dc7d35b5c2d17fd574dd08f765f0a2775117f01da2f65a6b25c21e879bb"
+    },
+    "planning-and-task-breakdown": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/planning/planning-and-task-breakdown/SKILL.md",
+      "computedHash": "f6c2cc012101225c58e5886e847342d1efaf0336a8e150b833d617fdf092952c"
+    },
+    "receiving-code-review": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/code-review/receiving-code-review/SKILL.md",
+      "computedHash": "59361179fc9225173e0c145ffd9bafbf9fdbf8b43ce3dc308497a0b4f83a6063"
+    },
+    "redesign-existing-projects": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/design/redesign-existing-projects/SKILL.md",
+      "computedHash": "d817f8e74b9bb547482a657d23946445eaa1e4d52aabd4bc01f5b08664923d12"
+    },
+    "requesting-code-review": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/code-review/requesting-code-review/SKILL.md",
+      "computedHash": "004f340ae65811095d6a9bb0a759c87d0a8085c5e705dbb019b011626293d2e9"
+    },
+    "security-and-hardening": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/03-crisis-and-safety/compliance/security-and-hardening/SKILL.md",
+      "computedHash": "47d027526d7e0be784a19a034f18cba328009b3c8fe483f16e4b12530cf82183"
+    },
+    "ship": {
+      "source": "thatjuan/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/deployment/ship/SKILL.md",
+      "computedHash": "2234c245de87cb90fc5cba5bad5d6c59c3b6adb8ea013f610c3359955540ac62"
+    },
+    "shipping-and-launch": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/deployment/shipping-and-launch/SKILL.md",
+      "computedHash": "47c62d418e9f3f395092864e6080b5c4b84fe3ef8abbbb6a3397ed655dda0ba8"
+    },
+    "skill-forge": {
+      "source": "bm629/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/self-improvement/skill-forge/SKILL.md",
+      "computedHash": "8fccf7aa7acf97f0459803ca412672a325e2c93a354ab9f2991b3dbaaba5c7f6"
+    },
+    "software-engineer": {
+      "source": "thatjuan/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/development/software-engineer/SKILL.md",
+      "computedHash": "4bad2ebcc0b32f26fd58f63b5334f47069c2ccde42cae13d1399c8ce0b62f356"
+    },
+    "source-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/documentation/source-driven-development/SKILL.md",
+      "computedHash": "c48d3c3abb2cb8a5c4a8584ab95db64f8a0261f3acfe2cdb7b8ff88ec3d90211"
+    },
+    "spec-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/development/spec-driven-development/SKILL.md",
+      "computedHash": "aca026683acdae1cd8a58f335fb26e60fb5db11ae81461a6896b0bf561aacb75"
+    },
+    "spec-evaluate": {
+      "source": "anyoneanderson/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/evaluation/spec-evaluate/SKILL.md",
+      "computedHash": "9527c59f45ff8fa58e8351ffa4ffdd9512a6fc2290946ecf95f115bcc028ad12"
+    },
+    "spec-orchestrate": {
+      "source": "anyoneanderson/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/planning/spec-orchestrate/SKILL.md",
+      "computedHash": "f93745fef5d04abe061e5703b651771b39c02cc61c08d97c2250c6c760421944"
+    },
+    "spec-review": {
+      "source": "anyoneanderson/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/code-review/spec-review/SKILL.md",
+      "computedHash": "eb642acde6673ce242170c43e925b958e8a4d1c3f6ec6235becb664cb198769d"
+    },
+    "spec-test": {
+      "source": "anyoneanderson/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/testing/spec-test/SKILL.md",
+      "computedHash": "0f7abfc0df7916fdc23c37dc052a2cb0176d62f049610627616da6ac533730b4"
+    },
+    "subagent-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/development/subagent-driven-development/SKILL.md",
+      "computedHash": "988e6ae6fa0e6a3ab7cba613662d75e80f193259576f2ede379461bfc40aa7d7"
+    },
+    "systematic-debugging": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/debugging/systematic-debugging/SKILL.md",
+      "computedHash": "a2750dfbaed1690da73b120254892c4f926b4576cb82eb16fc877783941fe39b"
+    },
+    "tdd": {
+      "source": "jwilger/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/testing/tdd/SKILL.md",
+      "computedHash": "8bbc42eb24338dec9dc4d1a07805cc1d92f69ca52a537be5f2d55f4a655c0794"
+    },
+    "team-executor": {
+      "source": "thatjuan/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/multi-agent/team-executor/SKILL.md",
+      "computedHash": "2cdfa423aa6f736531152b26ed818c93041a932007751663e441c1a5d3fede05"
+    },
+    "test-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/testing/test-driven-development/SKILL.md",
+      "computedHash": "a4126a9c5f17be3c228aa9e5755898ade283448b86099f56f40852e8c14532be"
+    },
+    "threejs-animation": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/threejs/threejs-animation/SKILL.md",
+      "computedHash": "0b7beec0387044de900ecc46fea9eab90402fc172ae043fe77b046c4bdf69f56"
+    },
+    "threejs-fundamentals": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/threejs/threejs-fundamentals/SKILL.md",
+      "computedHash": "8bb7132408e8adbc9eab9816068cd91fc6f7e7b8fffe76d2e050b40c5f0aa12f"
+    },
+    "threejs-interaction": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/threejs/threejs-interaction/SKILL.md",
+      "computedHash": "cbca5de95406e70028bac34f0366de6b7d044c342938d1fdb907205ecd6a7568"
+    },
+    "threejs-postprocessing": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/threejs/threejs-postprocessing/SKILL.md",
+      "computedHash": "7f3304f5605961fa095c6f3da6bab4ab5b9b9021cc958a2145fceaf88a2bcf11"
+    },
+    "threejs-shaders": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/threejs/threejs-shaders/SKILL.md",
+      "computedHash": "97296f9d17985938cb37fac088b9cbe08dead3c94c840b4aec1aaed1633dd941"
+    },
+    "ui_ux_pro_max": {
+      "source": "krishnakanthb13/antigravity_global_skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/design/ui_ux_pro_max/SKILL.md",
+      "computedHash": "5fb1d153654d6c6a669fc4061356cd842a218faedb8367990ae752fa92ac8eb9"
+    },
+    "using-agent-skills": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/self-improvement/using-agent-skills/SKILL.md",
+      "computedHash": "636ae59f809148bcb82b5f8dc5ae5204fba0724f1a34d7cd75890f1ad60990a2"
+    },
+    "using-git-worktrees": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/git/using-git-worktrees/SKILL.md",
+      "computedHash": "48c8a1040e378e0cb7208107294e3afa9067b9370c3f33b49a443eb6b7528b0d"
+    },
+    "using-superpowers": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/self-improvement/using-superpowers/SKILL.md",
+      "computedHash": "c7abe8bdc2099bbe4f245454d32c7563ccd2bb41dcc218b02b461c2acc3c6ae6"
+    },
+    "verification-before-completion": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/06-engineering-and-workflow/evaluation/verification-before-completion/SKILL.md",
+      "computedHash": "b529822bdac4b197b180fe12225cff86b930b65910435103c10622df7f041651"
+    },
+    "web-design-guidelines": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/05-frontend-and-ui/design/web-design-guidelines/SKILL.md",
+      "computedHash": "e0aac199087e84ce561cddbc7c2c964b8ed1ec445c79c88882416ae7777806e7"
+    },
+    "writing-plans": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/planning/writing-plans/SKILL.md",
+      "computedHash": "27c75044e444a4fc68798c3f799dc23eaff3a6bfabff32e6ad75bb20f881c094"
+    },
+    "writing-skills": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/04-agent-orchestration/self-improvement/writing-skills/SKILL.md",
+      "computedHash": "5f255b9c0d50d6d7eafa41b245b9308799321c5222bc68b1be2499f50ed82713"
+    },
+    "adhd-daily-planner": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/01-clinical-core/lifestyle/adhd-daily-planner/SKILL.md",
+      "computedHash": "52f86616ac762578cf958d57062e8fa48e45c5f67aa588beb027ca2a895979af"
+    },
+    "care-coordination": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/02-tracking-and-personalization/coordination/care-coordination/SKILL.md",
+      "computedHash": "5b5028796b40c70e971012810c24bdbec26e9413a5a5d0239c9af1a0d496803a"
+    },
+    "cognitive-toolkit": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/01-clinical-core/therapy/cognitive-toolkit/SKILL.md",
+      "computedHash": "a2c8e13e8f19eb24e587f09ad6c149493f96b7b0e86cffafe02646db5e28e99e"
+    },
+    "psychagent": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/01-clinical-core/therapy/psychagent/SKILL.md",
+      "computedHash": "18cda7107cb0023c87f06e482be7d90d92af26e64dbade54581153c2eb6f45c9"
+    },
+    "psyllm": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/01-clinical-core/therapy/psyllm/SKILL.md",
+      "computedHash": "7634da255adbf4c9f75a5568ebb4f2f89fcc4efc526d3aa70cc8fefa4a2a16d5"
+    },
+    "therapy-mode": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/01-clinical-core/therapy/therapy-mode/SKILL.md",
+      "computedHash": "81e2043976b75a99526ee907ef34ae4fdff21f61f263cd6fb3165ada43facae4"
+    },
+    "advanced-evaluation": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/06-engineering-and-workflow/evaluation/advanced-evaluation/SKILL.md",
+      "computedHash": "fe90791b272837125c3500345e435b57b1ca048147a9c61a50bbc61ec3fb70ad"
+    },
+    "bdi-mental-states": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/06-engineering-and-workflow/misc/bdi-mental-states/SKILL.md",
+      "computedHash": "42ad8604f02859b157d154fe58f052806f674a9afce561ab8ebb6af07c6d9a56"
+    },
+    "context-compression": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/04-agent-orchestration/context/context-compression/SKILL.md",
+      "computedHash": "41d5aafb2b0d9efa5f3a91facc0461837131ed3d56d9febeda3459c675c1bad1"
+    },
+    "context-degradation": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/04-agent-orchestration/context/context-degradation/SKILL.md",
+      "computedHash": "3b73499fb163b45a5ed2b82238d16557d5c78b184af9121221f93bb5908790d7"
+    },
+    "context-fundamentals": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/04-agent-orchestration/context/context-fundamentals/SKILL.md",
+      "computedHash": "1bda4e02bf383a5812796130d7b5f7cbd6d28b277ca8b4d892763d7fe1b5f76f"
+    },
+    "context-optimization": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/04-agent-orchestration/context/context-optimization/SKILL.md",
+      "computedHash": "081f123d1c98368afae510815940c88bffa867588298f6ef1a40cd8d50a896d7"
+    },
+    "evaluation": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/06-engineering-and-workflow/evaluation/evaluation/SKILL.md",
+      "computedHash": "00151fa07acc536d1d152b3474b2770fafb395f7ca544abba963ae580500c406"
+    },
+    "filesystem-context": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/04-agent-orchestration/context/filesystem-context/SKILL.md",
+      "computedHash": "d2ab91753036a262903769545cf4ac1c4bfeab4e697b3720f8fb850a1f01f1be"
+    },
+    "harness-engineering": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/06-engineering-and-workflow/development/harness-engineering/SKILL.md",
+      "computedHash": "8c223dbb272ebbcacafd0513c81ed56777ec0a7f80f8419f1e616235fa1c3074"
+    },
+    "hosted-agents": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/06-engineering-and-workflow/deployment/hosted-agents/SKILL.md",
+      "computedHash": "89fb331652c06bdd608df71213beffabd9a224325da9cb5edc224cd984370df7"
+    },
+    "latent-briefing": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/04-agent-orchestration/long-horizon/latent-briefing/SKILL.md",
+      "computedHash": "6f68ed837f1ef4e64295d1c537cd8f5326ca37e4932634546dca349c831188f3"
+    },
+    "long-horizon-prompting": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/04-agent-orchestration/long-horizon/long-horizon-prompting/SKILL.md",
+      "computedHash": "dcd4a6b00d1d9263889f8f0a1e5629e4d4a61ae965e45c36e4a463f956c9760f"
+    },
+    "memory-systems": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/04-agent-orchestration/memory/memory-systems/SKILL.md",
+      "computedHash": "b605f2eb648ac86c77e6016100daebd3f1e108837fc0a0ed04ced0377c0ba3e6"
+    },
+    "multi-agent-patterns": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/04-agent-orchestration/multi-agent/multi-agent-patterns/SKILL.md",
+      "computedHash": "f2bcd2eb3ddc44b23a4eb8048fc310fe87bad66df78dcadead350f4cb3067916"
+    },
+    "project-development": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/06-engineering-and-workflow/development/project-development/SKILL.md",
+      "computedHash": "4c94a5630453c1333ebb9a8d4fdb7a1305637fc8cbe893a3003fc9b814051524"
+    },
+    "self-improvement-loops": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/04-agent-orchestration/self-improvement/self-improvement-loops/SKILL.md",
+      "computedHash": "c592147926462574412cdca20d96ad651d7bed8c71bb4ec7163b65493b716fe3"
+    },
+    "tool-design": {
+      "source": "manual",
+      "sourceType": "local",
+      "skillPath": "skills/05-frontend-and-ui/design/tool-design/SKILL.md",
+      "computedHash": "20744fac015632550c5a038f014b251743fb155368096b707d8d42bbe11f90d0"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+-- Deprecated: Migrated to Qdrant Cloud for vector search.
+-- We no longer use pgvector natively in PostgreSQL.
+-- The embedding column and HNSW index are removed from this migration.
